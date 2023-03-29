@@ -16,7 +16,7 @@ export default function App() {
     <>    
     <BarraNav></BarraNav>
     <BarraLinks></BarraLinks>
-    <BarraImg className=""></BarraImg>
+    <BarraImg className="mb-3"></BarraImg>
     <div className="flex justify-center gap-16">
       <Button className="flex items-center gap-4" >      
         <span>
@@ -41,7 +41,21 @@ export default function App() {
       <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
     </div>
     <BarraSeccion3 className="mt-4">DESTACADOS DE LA SEMANA</BarraSeccion3>    
+      <div className="flex  justify-center pt-3 pr-3 pl-3 pb-3 gap-32">
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>    
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+      </div>      
     <BarraSeccion3 className="mt-4">PASTELES PARA EVENTOS</BarraSeccion3>    
+      <div className="flex  justify-center pt-3 pr-3 pl-3 pb-3 gap-32">
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>    
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+        <EspacioImgCatalogo className="border-red-700" >Imagen</EspacioImgCatalogo>
+      </div>
     <BarraSeccion3 className="mt-4">CONTACTO</BarraSeccion3>    
     <div className="pl-40 pr-40">
       <form className="flex flex-col justify-center">      
